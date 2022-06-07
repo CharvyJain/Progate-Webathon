@@ -1,0 +1,68 @@
+body {
+	height: 100vh;
+	padding: 0px;
+	margin: 0px;
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	background-image: url("background.jpeg");
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.BeatBox {
+	width: 600px;
+	height: 600px;
+	background-color: #333333;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.beat {
+	color: white;
+	width: 200px;
+	flex-basis: 30%;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.button {
+	border: 1px solid green;
+	width: 120px;
+	height: 120px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-size: 4em;
+	border-radius: 25px;
+	transition: 0.3s all;
+}
+
+.purple {
+	border: 10px double #ff00ff;
+}
+
+.white {
+	border: 10px double #FFCC00;
+}
+
+.aqua {
+	border: 10px double aqua;
+}
+
+
+
+
